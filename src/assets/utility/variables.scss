@@ -1,0 +1,48 @@
+
+/* ------------------------ Background Color ----------------------------*/
+$bgColor-primary: #fff !important;
+$bgColor-secondary: #f9f6ff !important;
+$bgColor-nav: #57ebf1 !important;
+$bgColor-active-nav: #ece8fc !important;
+$bgColor-hover-nav: #f1eeff !important;
+$bgColor-header:#fff;
+$bgColor-footer: #f0f0f1;
+
+
+/* ------------------------  Color ----------------------------*/
+$color-primary: #fff !important;
+$color-secondray: #404041 ;
+$color-font: #000 !important;
+$color-nav: #404041 !important;
+$color-border-left: #728c94 !important;
+$color-header: #fff ;
+$color-footer: #f0f0f1 ;
+
+
+/* ------------------------  Font Size ----------------------------*/
+$fontFamily: "Iran-Sans" !important;
+$fontSize-primary: 15px;
+$fontSize-secondray: 20px;
+$fontSize-title: 48px;
+$fontSize-nav-mob: 14px;
+$fontSize-nav-des: 20px;
+
+$fontWeight-bold: bold;
+$fontWeight-normal: normal;
+
+$fontWeight-400: 400;
+$fontWeight-500: 500;
+$fontWeight-700: 700;
+
+
+/* ------------------------  Box  Shadow ----------------------------*/
+$border-bottom-nav:1px solid #c4c4c4;
+
+
+/*        MIXIN         */
+
+@mixin style-text($color: $color-primary, $fontSize: $fontSize-primary, $fontWeight: $fontWeight-normal) {
+    color: $color;
+    font-size: $fontSize !important;
+    font-weight: $fontWeight !important;
+}
